@@ -21,10 +21,10 @@
               I complete my Diploma in APC Ray Polytechnic year of 2019 and
               complete my B.Tech From St.Thomas College of Engineering and
               Technology year of 2022. I have 1 year of experience in
-              Development and worked on HTML, CSS, JS, VueJs and Vuetify.
+              Development and worked on HTML, CSS, JS, ReactJs, and VueJs.
             </h3>
             <a
-              href="https://drive.google.com/file/d/14xAsSWuXWiG6AZzDdoJgvqBSFSgLcAfv/view"
+              href="https://drive.google.com/file/d/1dfik1ILrbn2SKW441whR5ZEZ3b9_mk8E/view?usp=sharing"
               download
               style="text-decoration: none"
               target="_blank"
@@ -39,7 +39,6 @@
                 Download Resume<v-icon> mdi-download</v-icon></v-btn
               >
             </a>
-            
           </v-card>
         </v-col>
         <v-col lg="6" cols="6">
@@ -67,9 +66,9 @@ export default {
     items: [
       { title: "HTML", value: 80, color: "#e34c26" },
       { title: "CSS", value: 80, color: "#264de4" },
-      { title: "Javascript", value: 70, color: "#f0db4f" },
-      { title: "Vuejs", value: 60, color: "#42b883" },
-      { title: "Vuetify", value: 70, color: "#508ae6" },
+      { title: "Javascript", value: 75, color: "#f0db4f" },
+      { title: "ReactJs", value: 70, color: "#87CEEB" },
+      { title: "Vuejs", value: 70, color: "#42b883" },
       { title: "Python", value: 60, color: "#565d69" },
       { title: "Java", value: 65, color: "#78116a" },
     ],

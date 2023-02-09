@@ -1,10 +1,6 @@
 <template>
   <section class="portfolio">
-    <h4
-      class="display-2 text-center"
-    >
-      Projects
-    </h4>
+    <h4 class="display-2 text-center">Projects</h4>
     <br />
     <v-slide-group class="pa-4" active-class="success">
       <v-slide-item
@@ -24,6 +20,9 @@
           <div class="sliderBody">
             <v-card-text>{{ slider.body }}</v-card-text>
           </div>
+          <div>
+            <h5>Date: {{ slider.date }}</h5>
+          </div>
         </v-card>
       </v-slide-item>
     </v-slide-group>
@@ -37,14 +36,32 @@ export default {
     model: null,
     projectTitle: [
       {
+        name: "Created a Navigation Bar",
+        body: " created a new navbar component for the updated version. I use VueJs, Vuetify, VueJs router, and Javascript for this component.",
+        date: "09/2022 - 09/2022",
+      },
+      {
+        name: "Add a skeleton loader",
+        body: "Add skeleton loader component and add on the table pages",
+        date: "12/2022 - 12/2022",
+      },
+      {
+        name: "JSON viewer for JSON data user",
+        body: "Create a JSON data viewer for JSON users",
+        date: "09/2022 - 09/2022"
+      },
+      {
+        name: "Created a Business Website",
+        body: "his project helped to switch businesses online. For this project, I use HTML, CSS, and JavaScript. In the future, I include some other technologies.",
+        date: "05/2022 - 06/2022",
+      },
+      {
         name: "Portfolio Website",
         body: "The website created by Vuejs and Vuetify, In this website each and every component is reusebale component. This Website shows each and every detels of the person.",
       },
       { name: "OTP Based Login System", body: "Body1" },
       { name: "ShareBit", body: "Body2" },
       { name: "Phonenumber Validator", body: "Body3" },
-      { name: "Hello 4", body: "Body4" },
-      { name: "Hello 5", body: "Body5" },
     ],
   }),
 };
